@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Enter your description here"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/home.css">
   <title>Directory of houses to rent </title>
 </head>
 <body>
-  <div class="p3">
+  <section class="p3">
     <header class="ha1">
       <div class="row">
         <div class="search">
@@ -19,13 +20,21 @@
         <h1 class="ha2">OXFORDIHO</h1>
       </div>
       <nav class="ha3">
-        <a href="#"><i class="fas fa-search-location px-4 ha3"></i></a>
-        <a href="#"><i class="fas fa-user px-4 ha3"></i></a>
-        <a href="#"><i class="fas fa-rss px-4 ha3"></i></a> 
-        <a href="#"><i class="fa fa-bars px-4 ha3"></i></a>
+        <a href="#"><i class="fas fa-search-location px-4 ha3"></i>
+          <p class="hide">HOUSES</p>
+        </a>
+        <a href="#"><i class="fas fa-user px-4 ha3"></i>
+          <p class="hide">ABOUT</p>
+        </a>
+        <a href="#"><i class="fas fa-rss px-4 ha3"></i>
+          <p class="hide">BLOG</p>
+        </a> 
+        <a href="#"><i class="fa fa-bars px-4 ha3"></i>
+          <p class="hide">MORE</p>
+        </a>
       </nav>
     </header>
-    <main>
+    <div class="main4">
       <div class="main-div">
         <h1 class="ha4">OXFORDIHO......YOUR GATEWAY TO HOUSES IN NIGERIA</h1>   
         <form>
@@ -33,7 +42,7 @@
            <label for="you">SEARCH BY KEY WORD:</label>
            <div class="b1-div">
             <input type="text" name="text" id="you">
-            <button class="btn2">SEARCH</button>
+            <button class="btn2"><a href="result.html">SEARCH</a></button>
            </div>
          </fieldset>
         </form>
@@ -41,8 +50,8 @@
           <p>How it works</p>
         </div>
       </div>
-    </main> 
-  </div>
+    </div> 
+  </section>
   <section class="second-sec">
     <header class="sec-head">
       <h4>OXFORDIHO WORKS IN FOUR SIMPLE STEPS.</h4>
@@ -103,10 +112,10 @@
     </div>
   </section>
   <footer>
-    <div class="container">
-      <div class=" row  row1">
+    <div class="con4">
+      <div class="row1">
         <div class="ffa1">
-          <ul class="row ul1">
+          <ul class="ul1">
             <li><a href="#">HOME</a></li>
             <li><a href="#">SEARCH</a></li>
             <li><a href="#">ABOUT US</a></li>
@@ -114,16 +123,44 @@
           </ul>
         </div>
         <div class="ffa2">
-          <a href="#"><i class="fas fa-user px-4 ha3"></i></a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i></a>
         </div>
         <div class="ffa3">
-          <ul class="row ul1">
+          <ul class="ul1">
             <li><a href="#">FACEBOOK</a></li>
             <li><a href="#">TWITTER</a></li>
             <li><a href="#">BLOG</a></li>
             <li><a href="#">GOOGLE</a></li>
           </ul>
         </div>
+      </div>
+      <div class="bottom-div">
+        <div class="za1">
+          <h2>SUBSCRIBE</h2>
+          <form>
+            <input type="email" name="email" id="email" placeholder="you@yahoo.com">
+            <label for="email">Email</label>
+          </form>
+        </div>
+        <div class="za2">
+          <h2>CONTACT</h2>
+          <p>You can get in touch with us at</p>
+          <p class="color">info@oxfordihohouse.com</p>
+        </div>
+        <div class="za3">
+          <h2>ABOUT</h2>
+          <p>Very convenient platform that cut across any 
+            device including our mobile ready web app coming soon to your <span class="color">app store</span></p>
+        </div>
+      </div>
+      <div class="icon-div">
+        <ul class="ul1">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></i></a></li>
+        </ul>
       </div>
     </div>
   </footer> 
