@@ -10,9 +10,9 @@
 - flex box
 - grid
 
-![screenshot](index-1.png)
-![screenshot](index-2.png)
-![screenshot](index-3.png)
+![screenshot](assets/img/index-1.png)
+![screenshot](assets/img/index-2.png)
+![screenshot](assets/img/index-3.png)
 
 Additional description about the project and its features.
 ## Livelink
@@ -77,5 +77,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://rem.mit-license.org ) licensed.
 
