@@ -27,7 +27,7 @@
     color: whitesmoke;
     font-weight: bold;
   }
-  body .h-one .ha1 .row .ha2 a {
+  body .h-one .ha1 .row .ha2 .aaa3 {
     color: white;
   }
   body .h-one .ha1 nav {
@@ -50,8 +50,23 @@
     height: auto;
   }
   body footer .con4 {
-    width: 100% t;
+    width: 100%;
     height: auto;
+  }
+  body footer .con4 .icon-div {
+    width: 100%;
+    background: #3a3535;
+  }
+  body footer .con4 .icon-div .ul1 {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+  }
+  body footer .con4 .icon-div .ul1 li {
+    padding: 15px 5px;
+  }
+  body footer .con4 .icon-div .ul1 li a {
+    color: #bdafaf;
   }
   body footer .con4 .row1 {
     display: flex;
@@ -87,7 +102,7 @@
     align-items: center;
     border-radius: 100%;
   }
-  body footer .con4 .row1 .ffa2 a i {
+  body footer .con4 .row1 .ffa2 .aa2 i {
     color: white;
     font-size: 30px;
   }
@@ -171,21 +186,6 @@
     color: #ec3333;
     cursor: pointer;
   }
-  body footer .con4 .icon-div {
-    width: 100%;
-    background: #3a3535;
-  }
-  body footer .con4 .icon-div .ul1 {
-    display: flex;
-    justify-content: start;
-    list-style-type: none;
-  }
-  body footer .con4 .icon-div .ul1 li {
-    padding: 15px 5px;
-  }
-  body footer .con4 .icon-div .ul1 li a {
-    color: #bdafaf;
-  }
 }
 @media (min-width: 768px) {
   body .h-one .ha1 {
@@ -215,7 +215,7 @@
     color: whitesmoke;
     font-weight: bold;
   }
-  body .h-one .ha1 .row .ha2 a {
+  body .h-one .ha1 .row .ha2 .aaa3 {
     color: white;
   }
   body .h-one .ha1 nav {
@@ -240,8 +240,23 @@
     height: auto;
   }
   body footer .con4 {
-    width: 100% t;
+    width: 100%;
     height: auto;
+  }
+  body footer .con4 .icon-div {
+    width: 100%;
+    background: #3a3535;
+  }
+  body footer .con4 .icon-div .ul1 {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+  }
+  body footer .con4 .icon-div .ul1 li {
+    padding: 15px 5px;
+  }
+  body footer .con4 .icon-div .ul1 li a {
+    color: #bdafaf;
   }
   body footer .con4 .row1 {
     display: flex;
@@ -277,7 +292,7 @@
     align-items: center;
     border-radius: 100%;
   }
-  body footer .con4 .row1 .ffa2 a i {
+  body footer .con4 .row1 .ffa2 .aa2 i {
     color: white;
     font-size: 35px;
   }
@@ -360,21 +375,6 @@
   body footer .con4 .bottom-div .za3 p .color {
     color: #ec3333;
     cursor: pointer;
-  }
-  body footer .con4 .icon-div {
-    width: 100%;
-    background: #3a3535;
-  }
-  body footer .con4 .icon-div .ul1 {
-    display: flex;
-    justify-content: start;
-    list-style-type: none;
-  }
-  body footer .con4 .icon-div .ul1 li {
-    padding: 15px 5px;
-  }
-  body footer .con4 .icon-div .ul1 li a {
-    color: #bdafaf;
   }
 }
 @media (min-width: 1024px) {
@@ -408,7 +408,7 @@
     color: whitesmoke;
     font-weight: bold;
   }
-  body .ha1 .row .ha2 a {
+  body .ha1 .row .ha2 .aaa3 {
     color: white;
   }
   body .ha1 nav {
@@ -433,8 +433,23 @@
     height: auto;
   }
   body footer .con4 {
-    width: 100% t;
+    width: 100%;
     height: auto;
+  }
+  body footer .con4 .icon-div {
+    width: 100%;
+    background: #3a3535;
+  }
+  body footer .con4 .icon-div .ul1 {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+  }
+  body footer .con4 .icon-div .ul1 li {
+    padding: 15px 5px;
+  }
+  body footer .con4 .icon-div .ul1 li a {
+    color: #bdafaf;
   }
   body footer .con4 .row1 {
     display: flex;
@@ -470,7 +485,7 @@
     align-items: center;
     border-radius: 100%;
   }
-  body footer .con4 .row1 .ffa2 a i {
+  body footer .con4 .row1 .ffa2 .aa2 i {
     color: white;
     font-size: 35px;
   }
@@ -553,20 +568,5 @@
   body footer .con4 .bottom-div .za3 p .color {
     color: #ec3333;
     cursor: pointer;
-  }
-  body footer .con4 .icon-div {
-    width: 100%;
-    background: #3a3535;
-  }
-  body footer .con4 .icon-div .ul1 {
-    display: flex;
-    justify-content: start;
-    list-style-type: none;
-  }
-  body footer .con4 .icon-div .ul1 li {
-    padding: 15px 5px;
-  }
-  body footer .con4 .icon-div .ul1 li a {
-    color: #bdafaf;
   }
 }
