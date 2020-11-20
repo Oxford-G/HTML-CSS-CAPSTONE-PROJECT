@@ -18,52 +18,6 @@ $breakpoint-mobile: 768px;
       }
     }
 
-    .img-secc {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      height: auto;
-      padding: 20px 20px;
-
-      h1 {
-        font-size: 20px;
-        font-weight: bolder;
-      }
-
-      .bttn-img-1 {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .bttn-img {
-          height: 200px;
-          width: 300px;
-          padding: 20px 20px;
-
-          a {
-            img {
-              width: 100%;
-              height: auto;
-            }
-          }
-        }
-
-        .be2 {
-          background: gray;
-          height: 100%;
-        }
-
-        .be3 {
-          background: pink;
-          height: 100%;
-        }
-      }
-    }
-
-
     .ha1 {
       background-color: rgb(172, 66, 24);
       width: 100%;
@@ -107,6 +61,51 @@ $breakpoint-mobile: 768px;
 
       .ha3 {
         color: white;
+      }
+    }
+
+    .img-secc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      padding: 20px 20px;
+
+      h1 {
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+      .bttn-img-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .bttn-img {
+          height: 200px;
+          width: 300px;
+          padding: 20px 20px;
+
+          a {
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+
+        .be2 {
+          background: gray;
+          height: 100%;
+        }
+
+        .be3 {
+          background: pink;
+          height: 100%;
+        }
       }
     }
 
@@ -361,6 +360,54 @@ $breakpoint-tablet: 768px;
       }
     }
 
+    .ha1 {
+      background-color: rgb(172, 66, 24);
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+
+      .row {
+        margin: 5px 10px;
+        justify-content: center;
+        align-items: center;
+
+        .search {
+          height: 80px;
+          width: 80px;
+          margin-right: 15px;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+          }
+        }
+
+        .ha2 {
+          color: whitesmoke;
+          font-weight: bold;
+        }
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 5px 10px;
+        color: white;
+
+        a {
+          color: white;
+
+          .hide {
+            display: none;
+          }
+        }
+      }
+    }
+
     .img-secc {
       display: flex;
       flex-direction: column;
@@ -387,7 +434,7 @@ $breakpoint-tablet: 768px;
           width: 300px;
           padding: 20px 20px;
 
-          a {
+          .hha1 {
             img {
               width: 100%;
               height: auto;
@@ -571,54 +618,6 @@ $breakpoint-tablet: 768px;
                 cursor: pointer;
               }
             }
-          }
-        }
-      }
-    }
-
-    .ha1 {
-      background-color: rgb(172, 66, 24);
-      width: 100%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-      padding: 20px 0;
-
-      .row {
-        margin: 5px 10px;
-        justify-content: center;
-        align-items: center;
-
-        .search {
-          height: 80px;
-          width: 80px;
-          margin-right: 15px;
-
-          img {
-            width: 100%;
-            height: auto;
-            border-radius: 50%;
-          }
-        }
-
-        .ha2 {
-          color: whitesmoke;
-          font-weight: bold;
-        }
-      }
-
-      nav {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-        margin: 5px 10px;
-        color: white;
-
-        a {
-          color: white;
-
-          .hide {
-            display: none;
           }
         }
       }
@@ -705,7 +704,7 @@ $breakpoint-desktop: 1024px;
 
 @media (min-width: $breakpoint-desktop) {
   body {
-    a {
+    .aa2 {
       color: white;
 
       i {
@@ -714,21 +713,54 @@ $breakpoint-desktop: 1024px;
       }
     }
 
-    nav {
+    .ha1 {
+      background-color: rgb(172, 66, 24);
+      width: 100%;
+      height: auto;
       display: flex;
       justify-content: center;
-      padding: 15px;
-      margin: 5px 10px;
-      color: white;
+      padding: 20px 0;
+      align-items: center;
 
-      a {
+      .row {
+        margin: 5px 10px;
+        justify-content: center;
+        align-items: center;
+
+        .search {
+          height: 80px;
+          width: 80px;
+          margin-right: 15px;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+          }
+        }
+
+        .ha2 {
+          color: whitesmoke;
+          font-weight: bold;
+        }
+      }
+
+      nav {
         display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 5px 10px;
         color: white;
 
-        .hide {
-          display: inline-block;
-          font-size: 15px;
-          font-weight: bold;
+        a {
+          display: flex;
+          color: white;
+
+          .hide {
+            display: inline-block;
+            font-size: 15px;
+            font-weight: bold;
+          }
         }
       }
     }
@@ -759,7 +791,7 @@ $breakpoint-desktop: 1024px;
           width: 300px;
           padding: 20px 20px;
 
-          a {
+          .hha1 {
             img {
               width: 100%;
               height: auto;
@@ -944,50 +976,6 @@ $breakpoint-desktop: 1024px;
               }
             }
           }
-        }
-      }
-    }
-
-    .ha1 {
-      background-color: rgb(172, 66, 24);
-      width: 100%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-      padding: 20px 0;
-
-      .row {
-        margin: 5px 10px;
-        justify-content: center;
-        align-items: center;
-
-        .search {
-          height: 80px;
-          width: 80px;
-          margin-right: 15px;
-
-          img {
-            width: 100%;
-            height: auto;
-            border-radius: 50%;
-          }
-        }
-
-        .ha2 {
-          color: whitesmoke;
-          font-weight: bold;
-        }
-      }
-
-      nav {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-        margin: 5px 10px;
-        color: white;
-
-        a {
-          color: white;
         }
       }
     }
