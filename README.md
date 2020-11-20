@@ -1,29 +1,24 @@
-# New-York-Times-Webpage-Clone
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Html-css-capstone-project
 
-> This is my Directory Of Houses website.
-- Embedding image
-- Floats and positioning
-- The box model
-- flex box
-- grid
+**OXFORDIHO HOUSING**
+- This is a directory of housing website
+
+**Built with**
+- Html
+- Css
+- flex 
+- Sass
 
 ![screenshot](assets/img/index-1.png)
 ![screenshot](assets/img/index-2.png)
 ![screenshot](assets/img/index-3.png)
 
 Additional description about the project and its features.
-## Livelink
+## Live link
 
 - [CLICK HERE](https://oxford-g.github.io/HTML-CSS-CAPSTONE-PROJECT/index.html)
-
-## Built With
-
-- HTML
-- CSS
-
 
 
 ## Getting Started
