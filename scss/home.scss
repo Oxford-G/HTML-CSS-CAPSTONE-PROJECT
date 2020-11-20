@@ -48,6 +48,10 @@ $breakpoint-mobile: 768px;
         .ha2 {
           color: whitesmoke;
           font-weight: bold;
+
+          .ha22 {
+            color: white;
+          }
         }
       }
 
@@ -82,7 +86,7 @@ $breakpoint-mobile: 768px;
           text-align: center;
           font-size: 20px;
           font-weight: bolder;
-          color: white;
+          color: rgb(36, 19, 19);
           width: 100%;
           height: auto;
         }
@@ -548,6 +552,10 @@ $breakpoint-tablet: 768px;
           .ha2 {
             color: whitesmoke;
             font-weight: bold;
+
+            .ha22 {
+              color: white;
+            }
           }
         }
 
@@ -582,7 +590,7 @@ $breakpoint-tablet: 768px;
             text-align: center;
             font-size: 30px;
             font-weight: bolder;
-            color: white;
+            color: rgb(36, 19, 19);
             width: 100%;
             height: auto;
           }
@@ -1066,6 +1074,10 @@ $breakpoint-desktop: 1024px;
           .ha2 {
             color: whitesmoke;
             font-weight: bold;
+
+            .ha22 {
+              color: white;
+            }
           }
         }
 
@@ -1103,7 +1115,7 @@ $breakpoint-desktop: 1024px;
             text-align: center;
             font-size: 30px;
             font-weight: bolder;
-            color: white;
+            color: rgb(36, 19, 19);
             width: 100%;
             height: auto;
           }

@@ -37,6 +37,9 @@
     color: whitesmoke;
     font-weight: bold;
   }
+  body .ha1 .row .ha2 .ha22 {
+    color: white;
+  }
   body .ha1 nav {
     display: flex;
     justify-content: center;
@@ -306,6 +309,9 @@
   body .ha1 .row .ha2 {
     color: whitesmoke;
     font-weight: bold;
+  }
+  body .ha1 .row .ha2 .ha22 {
+    color: white;
   }
   body .ha1 nav {
     display: flex;
@@ -592,6 +598,9 @@
   body .ha1 .row .ha2 {
     color: whitesmoke;
     font-weight: bold;
+  }
+  body .ha1 .row .ha2 .ha22 {
+    color: white;
   }
   body .ha1 nav {
     display: flex;
