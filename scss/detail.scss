@@ -1,13 +1,10 @@
 $breakpoint-mobile: 768px;
-@media (max-width: $breakpoint-mobile) {
 
+@media (max-width: $breakpoint-mobile) {
   body {
     background: #f1f3fa;
 
-
     .h-one {
-
-          
       .ha1 {
         background-color: rgb(172, 66, 24);
         width: 100%;
@@ -35,7 +32,7 @@ $breakpoint-mobile: 768px;
             color: whitesmoke;
             font-weight: bold;
 
-            a {
+            .aaa3 {
               color: white;
             }
           }
@@ -47,7 +44,6 @@ $breakpoint-mobile: 768px;
           padding: 15px;
 
           a {
-
             .hide {
               display: none;
             }
@@ -61,7 +57,6 @@ $breakpoint-mobile: 768px;
     }
 
     main {
-
       .container {
         padding: 25px 0;
       }
@@ -70,12 +65,30 @@ $breakpoint-mobile: 768px;
     footer {
       background: black;
       width: 100%;
-      height:auto;
-      
+      height: auto;
 
       .con4 {
-        width: 100%t;
+        width: 100%;
         height: auto;
+
+        .icon-div {
+          width: 100%;
+          background: rgb(58, 53, 53);
+
+          .ul1 {
+            display: flex;
+            justify-content: start;
+            list-style-type: none;
+
+            li {
+              padding: 15px 5px;
+
+              a {
+                color: rgb(189, 175, 175);
+              }
+            }
+          }
+        }
 
         .row1 {
           display: flex;
@@ -88,8 +101,7 @@ $breakpoint-mobile: 768px;
           .ffa1 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-            
-          
+
             .ul1 {
               display: flex;
               justify-content: stretch;
@@ -99,12 +111,11 @@ $breakpoint-mobile: 768px;
                 margin: 10px 10px;
                 font-size: 11px;
                 font-weight: bold;
-                
+
                 a {
                   color: white;
                 }
               }
-              
             }
           }
 
@@ -117,8 +128,7 @@ $breakpoint-mobile: 768px;
             align-items: center;
             border-radius: 100%;
 
-            a {
-
+            .aa2 {
               i {
                 color: white;
                 font-size: 30px;
@@ -167,7 +177,6 @@ $breakpoint-mobile: 768px;
             }
 
             form {
-
               input {
                 background: transparent;
                 border: 1px solid gray;
@@ -226,37 +235,16 @@ $breakpoint-mobile: 768px;
             }
           }
         }
-
-        .icon-div {
-          width: 100%;
-          background: rgb(58, 53, 53);
-
-          .ul1 {
-            display: flex;
-            justify-content: start;
-            list-style-type: none;
-
-            li {
-              padding: 15px 5px;
-
-              a {
-                color: rgb(189, 175, 175);
-              }
-            }
-          }
-        }
       }
     }
   }
-
 }
 
 $breakpoint-tablet: 768px;
+
 @media (min-width: $breakpoint-tablet) {
   body {
-      
     .h-one {
-     
       .ha1 {
         background-color: rgb(172, 66, 24);
         width: 100%;
@@ -286,7 +274,7 @@ $breakpoint-tablet: 768px;
             color: whitesmoke;
             font-weight: bold;
 
-            a {
+            .aaa3 {
               color: white;
             }
           }
@@ -311,7 +299,6 @@ $breakpoint-tablet: 768px;
     }
 
     main {
-
       .container {
         padding: 25px 0;
       }
@@ -320,11 +307,30 @@ $breakpoint-tablet: 768px;
     footer {
       background: black;
       width: 100%;
-      height:auto;
+      height: auto;
 
       .con4 {
-        width: 100%t;
+        width: 100%;
         height: auto;
+
+        .icon-div {
+          width: 100%;
+          background: rgb(58, 53, 53);
+
+          .ul1 {
+            display: flex;
+            justify-content: start;
+            list-style-type: none;
+
+            li {
+              padding: 15px 5px;
+
+              a {
+                color: rgb(189, 175, 175);
+              }
+            }
+          }
+        }
 
         .row1 {
           display: flex;
@@ -333,30 +339,28 @@ $breakpoint-tablet: 768px;
           width: 100%;
           justify-content: center;
           align-items: center;
-  
+
           .ffa1 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-            
-          
+
             .ul1 {
               display: flex;
               justify-content: stretch;
               list-style-type: none;
-  
+
               li {
                 margin: 10px 10px;
                 font-size: 15px;
                 font-weight: bold;
-                
+
                 a {
                   color: white;
                 }
               }
-              
             }
           }
-  
+
           .ffa2 {
             width: 100px;
             height: 100px;
@@ -366,24 +370,23 @@ $breakpoint-tablet: 768px;
             align-items: center;
             border-radius: 100%;
 
-            a {
-
+            .aa2 {
               i {
                 color: white;
                 font-size: 35px;
               }
             }
           }
-  
+
           .ffa3 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-  
+
             .ul1 {
               display: flex;
               justify-content: stretch;
               list-style-type: none;
-  
+
               li {
                 margin: 10px 10px;
                 font-size: 15px;
@@ -416,7 +419,6 @@ $breakpoint-tablet: 768px;
             }
 
             form {
-
               input {
                 background: transparent;
                 border: 1px solid gray;
@@ -475,31 +477,13 @@ $breakpoint-tablet: 768px;
             }
           }
         }
-
-        .icon-div {
-          width: 100%;
-          background: rgb(58, 53, 53);
-
-          .ul1 {
-            display: flex;
-            justify-content: start;
-            list-style-type: none;
-
-            li {
-              padding: 15px 5px;
-
-              a {
-                color: rgb(189, 175, 175);
-              }
-            }
-          }
-        }
       }
     }
   }
 }
 
 $breakpoint-desktop: 1024px;
+
 @media (min-width: $breakpoint-desktop) {
   body {
     background: #f1f3fa;
@@ -511,7 +495,7 @@ $breakpoint-desktop: 1024px;
       display: flex;
       justify-content: center;
       padding: 20px 0;
-  
+
       .row {
         margin: 5px 10px;
         justify-content: center;
@@ -533,7 +517,7 @@ $breakpoint-desktop: 1024px;
           color: whitesmoke;
           font-weight: bold;
 
-          a {
+          .aaa3 {
             color: white;
           }
         }
@@ -556,18 +540,36 @@ $breakpoint-desktop: 1024px;
             font-weight: bold;
           }
         }
-
       }
     }
 
     footer {
       background: black;
       width: 100%;
-      height:auto;
+      height: auto;
 
       .con4 {
-        width: 100%t;
+        width: 100%;
         height: auto;
+
+        .icon-div {
+          width: 100%;
+          background: rgb(58, 53, 53);
+
+          .ul1 {
+            display: flex;
+            justify-content: start;
+            list-style-type: none;
+
+            li {
+              padding: 15px 5px;
+
+              a {
+                color: rgb(189, 175, 175);
+              }
+            }
+          }
+        }
 
         .row1 {
           display: flex;
@@ -576,30 +578,28 @@ $breakpoint-desktop: 1024px;
           width: 100%;
           justify-content: center;
           align-items: center;
-  
+
           .ffa1 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-            
-          
+
             .ul1 {
               display: flex;
               justify-content: stretch;
               list-style-type: none;
-  
+
               li {
                 margin: 10px 10px;
                 font-size: 15px;
                 font-weight: bold;
-                
+
                 a {
                   color: white;
                 }
               }
-              
             }
           }
-  
+
           .ffa2 {
             width: 100px;
             height: 100px;
@@ -609,24 +609,23 @@ $breakpoint-desktop: 1024px;
             align-items: center;
             border-radius: 100%;
 
-            a {
-
+            .aa2 {
               i {
                 color: white;
                 font-size: 35px;
               }
             }
           }
-  
+
           .ffa3 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-  
+
             .ul1 {
               display: flex;
               justify-content: stretch;
               list-style-type: none;
-  
+
               li {
                 margin: 10px 10px;
                 font-size: 15px;
@@ -659,7 +658,6 @@ $breakpoint-desktop: 1024px;
             }
 
             form {
-
               input {
                 background: transparent;
                 border: 1px solid gray;
@@ -718,26 +716,7 @@ $breakpoint-desktop: 1024px;
             }
           }
         }
-
-        .icon-div {
-          width: 100%;
-          background: rgb(58, 53, 53);
-
-          .ul1 {
-            display: flex;
-            justify-content: start;
-            list-style-type: none;
-
-            li {
-              padding: 15px 5px;
-
-              a {
-                color: rgb(189, 175, 175);
-              }
-            }
-          }
-        }
       }
     }
   }
-}      
+}

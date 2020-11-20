@@ -37,13 +37,13 @@
   </section>
   <main>
     <header class="all">
-      <header>FILTER BY NAME, COUNTRY, HOUSING SYSTEM, HOUSE LEVEL:</header>
+      <div>FILTER BY NAME, COUNTRY, HOUSING SYSTEM, HOUSE LEVEL:</div>
       <section class="option-div">
         <div class="option-div1">
           <div class="op-d1">
             <h5 class="op-d2">HOUSE NAME*</h5>
             <select name="day">
-              <option value="Brick ranch-style"></option>
+              <option value="Brick ranch-style">Select</option>
               <option value="American Craftsman bungalow">American Craftsman bungalow</option>
               <option value="Ontario Cottage">Ontario Cottage</option>
               <option value="Izba">Izba</option>
@@ -52,7 +52,7 @@
           <div class="op-d1">
             <h5 class="op-d2">COUNTY:</h5>
             <select name="day">
-              <option value="Enugu"></option>
+              <option value="Enugu">Select</option>
               <option value="Owerri">Owerri</option>
               <option value="Awka">Awka</option>
               <option value="Aba">Aba</option>
@@ -61,7 +61,7 @@
           <div class="op-d1">
             <h5 class="op-d2">LEVEL:</h5>
             <select name="day">
-              <option value="low"></option>
+              <option value="low">Select</option>
               <option value="nothing">lower</option>
               <option value="middle">middle</option>
               <option value="high">high</option>
@@ -70,7 +70,7 @@
           <div class="op-d1">
             <h5 class="op-d2">TYPE:</h5>
             <select name="day">
-              <option value="Dacha"></option>
+              <option value="Dacha">Select</option>
               <option value="Frutighaus">Frutighaus</option>
               <option value="Cape Cod-style house">Cape Cod-style house</option>
               <option value="Split-level">Split-level</option>
@@ -79,7 +79,7 @@
           <div class="op-d1">
             <h5 class="op-d2">GENDER:</h5>
             <select name="day">
-              <option value="Ranch"></option>
+              <option value="Ranch">Select</option>
               <option value="Frutighaus">Frutighaus</option>
               <option value="I-house">I-house</option>
               <option value="Gablefront">Gablefront</option>
@@ -88,16 +88,20 @@
           <div class="op-d1">
             <h5 class="op-d2">CALENDAR:</h5>
             <select name="day">
-              <option value="Friday"></option>
+              <option value="Friday">Select</option>
               <option value="Frutighaus">Frutighaus</option>
               <option value="Saturday">Saturday</option>
               <option value="Sunday">Sunday</option>
             </select>
           </div>
         </div>
-        <div class="bttn">
-          <button class="bttn-1"><a href="detail.html">search</a></button>
-          <button class="bttn-2"><a href="result.html">clear filter</a></button>
+        <div class="bttn"> 
+          <form action="detail.html" method="get">
+            <button class="bttn-1">search</button>
+          </form>
+          <form action="result.html" method="get">
+            <button class="bttn-2">clear filter</button>
+          </form>
         </div>
       </section>
     </header>
@@ -164,7 +168,7 @@
           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
           <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
-          <li><a href="#"><i class="fab fa-linkedin"></i></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
         </ul>
       </div>
     </div>
