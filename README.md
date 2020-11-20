@@ -16,7 +16,7 @@
 ![screenshot](assets/img/index-3.png)
 
 Additional description about the project and its features.
-## Live link
+## LIVE LINK
 
 - [CLICK HERE](https://oxford-g.github.io/HTML-CSS-CAPSTONE-PROJECT/index.html)
 
