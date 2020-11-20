@@ -48,40 +48,40 @@
     background: pink;
     height: 100%;
   }
-  body .h-one .ha1 {
+  body .ha1 {
     background-color: #ac4218;
     width: 100%;
     height: auto;
     padding: 15px 0;
   }
-  body .h-one .ha1 nav {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-  }
-  body .h-one .ha1 nav .ha3 {
-    color: white;
-  }
-  body .h-one .ha1 .row {
+  body .ha1 .row {
     margin: 0 20px;
     justify-content: center;
     align-items: center;
   }
-  body .h-one .ha1 .row .search {
+  body .ha1 .row .search {
     height: 70px;
     width: 70px;
     margin-right: 15px;
   }
-  body .h-one .ha1 .row .search img {
+  body .ha1 .row .search img {
     width: 100%;
     height: auto;
     border-radius: 50%;
   }
-  body .h-one .ha1 .row .ha2 {
+  body .ha1 .row .ha2 {
     color: whitesmoke;
     font-weight: bold;
   }
-  body .h-one .ha1 .row .ha2 a {
+  body .ha1 nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  body .ha1 nav a .hide {
+    display: none;
+  }
+  body .ha1 .ha3 {
     color: white;
   }
   body main {
@@ -280,11 +280,6 @@
     font-size: 15px;
     font-weight: bold;
   }
-  body img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
   body .img-secc {
     display: flex;
     flex-direction: column;
@@ -478,9 +473,27 @@
     width: 80px;
     margin-right: 15px;
   }
+  body .ha1 .row .search img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
   body .ha1 .row .ha2 {
     color: whitesmoke;
     font-weight: bold;
+  }
+  body .ha1 nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px 10px;
+    color: white;
+  }
+  body .ha1 nav a {
+    color: white;
+  }
+  body .ha1 nav a .hide {
+    display: none;
   }
   body main {
     width: 100%;
@@ -507,24 +520,27 @@
   body main .all .option-div .option-div1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
   }
   body main .all .option-div .option-div1 .op-d1 {
-    width: auto;
+    width: 100px;
+    height: auto;
   }
   body main .all .option-div .option-div1 .op-d1 .op-d2 {
     width: auto;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bolder;
   }
   body main .all .option-div .option-div1 .op-d1 select {
-    width: 100%;
+    width: 100px;
     height: auto;
   }
   body main .all .option-div .bttn {
     display: flex;
     font-size: 13px;
     width: auto;
+    align-self: center;
   }
   body main .all .option-div .bttn form button {
     padding: 0;
@@ -565,11 +581,6 @@
     font-size: 15px;
     font-weight: bold;
   }
-  body img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
   body .img-secc {
     display: flex;
     flex-direction: column;
@@ -763,9 +774,24 @@
     width: 80px;
     margin-right: 15px;
   }
+  body .ha1 .row .search img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
   body .ha1 .row .ha2 {
     color: whitesmoke;
     font-weight: bold;
+  }
+  body .ha1 nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px 10px;
+    color: white;
+  }
+  body .ha1 nav a {
+    color: white;
   }
   body main {
     width: 100%;
@@ -793,23 +819,26 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    align-items: center;
   }
   body main .all .option-div .option-div1 .op-d1 {
-    width: auto;
+    width: 100px;
+    height: auto;
   }
   body main .all .option-div .option-div1 .op-d1 .op-d2 {
     width: auto;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bolder;
   }
   body main .all .option-div .option-div1 .op-d1 select {
-    width: 100%;
+    width: 100px;
     height: auto;
   }
   body main .all .option-div .bttn {
     display: flex;
     font-size: 13px;
     width: auto;
+    align-self: center;
   }
   body main .all .option-div .bttn form button {
     padding: 0;

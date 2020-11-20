@@ -9,6 +9,10 @@
     background: #f1f3fa;
   }
 
+  .container {
+    align-self: center;
+  }
+
   .p3 {
     background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_632/6e2a88101373301.5f1d94e579e8d.jpg");
     background-repeat: no-repeat;
@@ -131,6 +135,10 @@
     cursor: pointer;
   }
 
+  main .container {
+    padding: 25px 0;
+  }
+
   .second-sec {
     margin: 40px 20px 30px 20px;
   }
@@ -199,9 +207,9 @@
     height: 150px;
     margin-bottom: 28px;
   }
-  .section-3 .va1 .img1 .mmg {
+  .section-3 .va1 .img1 .mgg {
     width: 100%;
-    height: auto;
+    height: 140%;
     border-radius: 50%;
   }
   .section-3 .va2 {
@@ -235,9 +243,9 @@
     height: 150px;
     margin-bottom: 28px;
   }
-  .section-3 .va2 .img1 .mmg {
+  .section-3 .va2 .img1 .mgg {
     width: 100%;
-    height: auto;
+    height: 140%;
     border-radius: 50%;
   }
   .section-3 .va3 {
@@ -264,7 +272,7 @@
     height: 200px;
     margin-bottom: 38px;
   }
-  .section-3 .va3 .img1 .mmg {
+  .section-3 .va3 .img1 .mgg {
     width: 100%;
     height: auto;
     border-radius: 7%;
@@ -540,6 +548,9 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  body main .container {
+    padding: 25px 0;
+  }
   body .second-sec {
     margin: 40px 20px 30px 20px;
   }
@@ -609,7 +620,7 @@
   }
   body .section-3 .va1 .img1 .mgg {
     width: 100%;
-    height: auto;
+    height: 140%;
     border-radius: 50%;
   }
   body .section-3 .va2 {
@@ -645,7 +656,7 @@
   }
   body .section-3 .va2 .img1 .mgg {
     width: 100%;
-    height: auto;
+    height: 140%;
     border-radius: 50%;
   }
   body .section-3 .va3 {
@@ -823,6 +834,9 @@
 @media (min-width: 1024px) {
   body {
     background: #f1f3fa;
+  }
+  body main .container {
+    padding: 25px 0;
   }
   body label {
     display: inline;
@@ -1030,8 +1044,8 @@
   }
   body .section-3 .va1 .img1 .mgg {
     width: 100%;
-    height: auto;
-    border-radius: 50%;
+    height: 140%;
+    border-radius: 100%;
   }
   body .section-3 .va2 {
     display: flex;
@@ -1066,8 +1080,8 @@
   }
   body .section-3 .va2 .img1 .mgg {
     width: 100%;
-    height: auto;
-    border-radius: 50%;
+    height: 140%;
+    border-radius: 100%;
   }
   body .section-3 .va3 {
     display: flex;

@@ -63,49 +63,50 @@ $breakpoint-mobile: 768px;
       }
     }
 
-    .h-one {
-      .ha1 {
-        background-color: rgb(172, 66, 24);
-        width: 100%;
-        height: auto;
-        padding: 15px 0;
 
-        nav {
-          display: flex;
-          justify-content: center;
-          padding: 15px;
+    .ha1 {
+      background-color: rgb(172, 66, 24);
+      width: 100%;
+      height: auto;
+      padding: 15px 0;
 
-          .ha3 {
-            color: white;
+      .row {
+        margin: 0 20px;
+        justify-content: center;
+        align-items: center;
+
+        .search {
+          height: 70px;
+          width: 70px;
+          margin-right: 15px;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
           }
         }
 
-        .row {
-          margin: 0 20px;
-          justify-content: center;
-          align-items: center;
+        .ha2 {
+          color: whitesmoke;
+          font-weight: bold;
+        }
+      }
 
-          .search {
-            height: 70px;
-            width: 70px;
-            margin-right: 15px;
+      nav {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
 
-            img {
-              width: 100%;
-              height: auto;
-              border-radius: 50%;
-            }
-          }
-
-          .ha2 {
-            color: whitesmoke;
-            font-weight: bold;
-
-            a {
-              color: white;
-            }
+        a {
+          .hide {
+            display: none;
           }
         }
+      }
+
+      .ha3 {
+        color: white;
       }
     }
 
@@ -360,12 +361,6 @@ $breakpoint-tablet: 768px;
       }
     }
 
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 50%;
-    }
-
     .img-secc {
       display: flex;
       flex-direction: column;
@@ -598,11 +593,33 @@ $breakpoint-tablet: 768px;
           height: 80px;
           width: 80px;
           margin-right: 15px;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+          }
         }
 
         .ha2 {
           color: whitesmoke;
           font-weight: bold;
+        }
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 5px 10px;
+        color: white;
+
+        a {
+          color: white;
+
+          .hide {
+            display: none;
+          }
         }
       }
     }
@@ -633,19 +650,21 @@ $breakpoint-tablet: 768px;
           .option-div1 {
             display: flex;
             justify-content: center;
+            align-items: center;
             width: 100%;
 
             .op-d1 {
-              width: auto;
+              width: 100px;
+              height: auto;
 
               .op-d2 {
                 width: auto;
-                font-size: 14px;
+                font-size: 10px;
                 font-weight: bolder;
               }
 
               select {
-                width: 100%;
+                width: 100px;
                 height: auto;
               }
             }
@@ -655,6 +674,7 @@ $breakpoint-tablet: 768px;
             display: flex;
             font-size: 13px;
             width: auto;
+            align-self: center;
 
             form {
               button {
@@ -713,12 +733,6 @@ $breakpoint-desktop: 1024px;
       }
     }
 
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 50%;
-    }
-
     .img-secc {
       display: flex;
       flex-direction: column;
@@ -951,11 +965,29 @@ $breakpoint-desktop: 1024px;
           height: 80px;
           width: 80px;
           margin-right: 15px;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+          }
         }
 
         .ha2 {
           color: whitesmoke;
           font-weight: bold;
+        }
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 5px 10px;
+        color: white;
+
+        a {
+          color: white;
         }
       }
     }
@@ -987,18 +1019,20 @@ $breakpoint-desktop: 1024px;
             display: flex;
             justify-content: center;
             width: 100%;
+            align-items: center;
 
             .op-d1 {
-              width: auto;
+              width: 100px;
+              height: auto;
 
               .op-d2 {
                 width: auto;
-                font-size: 14px;
+                font-size: 10px;
                 font-weight: bolder;
               }
 
               select {
-                width: 100%;
+                width: 100px;
                 height: auto;
               }
             }
@@ -1008,6 +1042,7 @@ $breakpoint-desktop: 1024px;
             display: flex;
             font-size: 13px;
             width: auto;
+            align-self: center;
 
             form {
               button {

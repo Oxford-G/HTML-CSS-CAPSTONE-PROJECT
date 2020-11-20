@@ -10,6 +10,10 @@ $breakpoint-mobile: 768px;
     background: #f1f3fa;
   }
 
+  .container {
+    align-self: center;
+  }
+
   .p3 {
     background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_632/6e2a88101373301.5f1d94e579e8d.jpg");
     background-repeat: no-repeat;
@@ -154,6 +158,12 @@ $breakpoint-mobile: 768px;
     }
   }
 
+  main {
+    .container {
+      padding: 25px 0;
+    }
+  }
+
   .second-sec {
     margin: 40px 20px 30px 20px;
 
@@ -232,9 +242,9 @@ $breakpoint-mobile: 768px;
         height: 150px;
         margin-bottom: 28px;
 
-        .mmg {
+        .mgg {
           width: 100%;
-          height: auto;
+          height: 140%;
           border-radius: 50%;
         }
       }
@@ -275,9 +285,9 @@ $breakpoint-mobile: 768px;
         height: 150px;
         margin-bottom: 28px;
 
-        .mmg {
+        .mgg {
           width: 100%;
-          height: auto;
+          height: 140%;
           border-radius: 50%;
         }
       }
@@ -310,7 +320,7 @@ $breakpoint-mobile: 768px;
         height: 200px;
         margin-bottom: 38px;
 
-        .mmg {
+        .mgg {
           width: 100%;
           height: auto;
           border-radius: 7%;
@@ -646,6 +656,12 @@ $breakpoint-tablet: 768px;
       }
     }
 
+    main {
+      .container {
+        padding: 25px 0;
+      }
+    }
+
     .second-sec {
       margin: 40px 20px 30px 20px;
 
@@ -726,7 +742,7 @@ $breakpoint-tablet: 768px;
 
           .mgg {
             width: 100%;
-            height: auto;
+            height: 140%;
             border-radius: 50%;
           }
         }
@@ -769,7 +785,7 @@ $breakpoint-tablet: 768px;
 
           .mgg {
             width: 100%;
-            height: auto;
+            height: 140%;
             border-radius: 50%;
           }
         }
@@ -994,6 +1010,12 @@ $breakpoint-desktop: 1024px;
 @media (min-width: $breakpoint-desktop) {
   body {
     background: #f1f3fa;
+
+    main {
+      .container {
+        padding: 25px 0;
+      }
+    }
 
     label {
       display: inline;
@@ -1235,8 +1257,8 @@ $breakpoint-desktop: 1024px;
 
           .mgg {
             width: 100%;
-            height: auto;
-            border-radius: 50%;
+            height: 140%;
+            border-radius: 100%;
           }
         }
       }
@@ -1278,8 +1300,8 @@ $breakpoint-desktop: 1024px;
 
           .mgg {
             width: 100%;
-            height: auto;
-            border-radius: 50%;
+            height: 140%;
+            border-radius: 100%;
           }
         }
       }
