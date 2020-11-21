@@ -68,7 +68,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px 150px 0 150px;
     width: auto;
   }
   .p3 .main4 .main-div .ha4 {
@@ -298,7 +297,7 @@
     list-style-type: none;
   }
   footer .icon-div .ul1 li {
-    padding: 15px 5px;
+    padding: 10px 8px;
   }
   footer .icon-div .ul1 li a {
     color: #bdafaf;
@@ -314,17 +313,18 @@
     width: auto;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   footer .con4 .row1 .ffa1 {
     border-top: 1px solid #b4aaaa;
     border-bottom: 1px solid #b4aaaa;
-    width: auto;
+    width: 100%;
   }
   footer .con4 .row1 .ffa1 .ul1 {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    width: auto;
+    width: 100%;
   }
   footer .con4 .row1 .ffa1 .ul1 li {
     margin: 0 5px;
@@ -351,25 +351,27 @@
   footer .con4 .row1 .ffa3 {
     border-top: 1px solid #b4aaaa;
     border-bottom: 1px solid #b4aaaa;
-    width: auto;
+    width: 100%;
   }
   footer .con4 .row1 .ffa3 .ul1 {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     list-style-type: none;
-    width: auto;
+    width: 100%;
   }
   footer .con4 .row1 .ffa3 .ul1 li {
     margin: 0 5px;
     font-size: 10px;
     font-weight: bold;
+    width: inherit;
   }
   footer .con4 .row1 .ffa3 .ul1 li a {
     color: white;
   }
   footer .con4 .bottom-div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: auto;
     width: 100%;
@@ -379,6 +381,7 @@
     width: auto;
     text-align: center;
     padding-right: 3px;
+    margin-top: 5px;
   }
   footer .con4 .bottom-div .za1 h2 {
     font-size: 13px;
@@ -390,7 +393,6 @@
     border: 1px solid gray;
     color: white;
     width: auto;
-    margin-top: 15px;
   }
   footer .con4 .bottom-div .za1 .ffw1 .ffw4 {
     display: inline;
@@ -403,6 +405,7 @@
     width: auto;
     text-align: center;
     padding-right: 4px;
+    margin-top: 10px;
   }
   footer .con4 .bottom-div .za2 h2 {
     font-size: 13px;
@@ -432,7 +435,6 @@
     font-size: 11px;
     margin: 0;
     color: ivory;
-    width: 200px;
   }
   footer .con4 .bottom-div .za3 .pp1 .color {
     color: #ec3333;

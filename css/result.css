@@ -70,7 +70,7 @@
     height: 200px;
     width: 300px;
   }
-  body .img-secc .bttn-img-1 .bttn-img a img {
+  body .img-secc .bttn-img-1 .bttn-img .hha1 img {
     width: 100%;
     height: auto;
   }
@@ -136,9 +136,9 @@
     list-style-type: none;
   }
   body footer .icon-div .ul1 li {
-    padding: 15px 5px;
+    padding: 10px 8px;
   }
-  body footer .icon-div .ul1 li .awe {
+  body footer .icon-div .ul1 li a {
     color: #bdafaf;
   }
   body footer .con4 {
@@ -147,24 +147,26 @@
   }
   body footer .con4 .row1 {
     display: flex;
+    padding-top: 20px;
     height: auto;
     width: auto;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   body footer .con4 .row1 .ffa1 {
     border-top: 1px solid #b4aaaa;
     border-bottom: 1px solid #b4aaaa;
-    width: auto;
+    width: 100%;
   }
   body footer .con4 .row1 .ffa1 .ul1 {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    width: auto;
+    width: 100%;
   }
   body footer .con4 .row1 .ffa1 .ul1 li {
-    margin-right: 5px;
+    margin: 0 5px;
     font-size: 10px;
     font-weight: bold;
     width: inherit;
@@ -188,17 +190,16 @@
   body footer .con4 .row1 .ffa3 {
     border-top: 1px solid #b4aaaa;
     border-bottom: 1px solid #b4aaaa;
-    width: auto;
+    width: 100%;
   }
   body footer .con4 .row1 .ffa3 .ul1 {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    width: auto;
-    margin-left: -34px;
+    width: 100%;
   }
   body footer .con4 .row1 .ffa3 .ul1 li {
-    margin-right: 5px;
+    margin: 0 5px;
     font-size: 10px;
     font-weight: bold;
     width: inherit;
@@ -208,15 +209,18 @@
   }
   body footer .con4 .bottom-div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: auto;
     width: 100%;
+    padding-bottom: 20px;
   }
   body footer .con4 .bottom-div .za1 {
     width: auto;
     text-align: center;
     padding-right: 3px;
+    margin-top: 5px;
   }
   body footer .con4 .bottom-div .za1 h2 {
     font-size: 13px;
@@ -228,7 +232,6 @@
     border: 1px solid gray;
     color: white;
     width: auto;
-    margin-top: 15px;
   }
   body footer .con4 .bottom-div .za1 .ffw1 .ffw4 {
     display: inline;
@@ -241,6 +244,7 @@
     width: auto;
     text-align: center;
     padding-right: 4px;
+    margin-top: 10px;
   }
   body footer .con4 .bottom-div .za2 h2 {
     font-size: 13px;

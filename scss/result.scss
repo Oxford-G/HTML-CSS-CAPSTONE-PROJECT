@@ -87,7 +87,7 @@ $breakpoint-mobile: 768px;
           height: 200px;
           width: 300px;
 
-          a {
+          .hha1 {
             img {
               width: 100%;
               height: auto;
@@ -175,9 +175,9 @@ $breakpoint-mobile: 768px;
           list-style-type: none;
 
           li {
-            padding: 15px 5px;
+            padding: 10px 8px;
 
-            .awe {
+            a {
               color: rgb(189, 175, 175);
             }
           }
@@ -190,24 +190,26 @@ $breakpoint-mobile: 768px;
 
         .row1 {
           display: flex;
+          padding-top: 20px;
           height: auto;
           width: auto;
           justify-content: center;
           align-items: center;
+          flex-direction: column;
 
           .ffa1 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-            width: auto;
+            width: 100%;
 
             .ul1 {
               display: flex;
               justify-content: center;
               list-style-type: none;
-              width: auto;
+              width: 100%;
 
               li {
-                margin-right: 5px;
+                margin: 0 5px;
                 font-size: 10px;
                 font-weight: bold;
                 width: inherit;
@@ -239,17 +241,16 @@ $breakpoint-mobile: 768px;
           .ffa3 {
             border-top: 1px solid rgb(180, 170, 170);
             border-bottom: 1px solid rgb(180, 170, 170);
-            width: auto;
+            width: 100%;
 
             .ul1 {
               display: flex;
               justify-content: center;
               list-style-type: none;
-              width: auto;
-              margin-left: -34px;
+              width: 100%;
 
               li {
-                margin-right: 5px;
+                margin: 0 5px;
                 font-size: 10px;
                 font-weight: bold;
                 width: inherit;
@@ -264,15 +265,18 @@ $breakpoint-mobile: 768px;
 
         .bottom-div {
           display: flex;
-          justify-content: space-around;
+          flex-direction: column;
+          justify-content: center;
           align-items: center;
           height: auto;
           width: 100%;
+          padding-bottom: 20px;
 
           .za1 {
             width: auto;
             text-align: center;
             padding-right: 3px;
+            margin-top: 5px;
 
             h2 {
               font-size: 13px;
@@ -286,7 +290,6 @@ $breakpoint-mobile: 768px;
                 border: 1px solid gray;
                 color: white;
                 width: auto;
-                margin-top: 15px;
               }
 
               .ffw4 {
@@ -303,6 +306,7 @@ $breakpoint-mobile: 768px;
             width: auto;
             text-align: center;
             padding-right: 4px;
+            margin-top: 10px;
 
             h2 {
               font-size: 13px;
