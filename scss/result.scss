@@ -173,6 +173,7 @@ $breakpoint-mobile: 768px;
           display: flex;
           justify-content: start;
           list-style-type: none;
+          margin: 0;
 
           li {
             padding: 10px 8px;
@@ -511,6 +512,7 @@ $breakpoint-tablet: 768px;
             display: flex;
             justify-content: start;
             list-style-type: none;
+            margin: 0;
 
             li {
               padding: 15px 5px;
@@ -680,10 +682,10 @@ $breakpoint-tablet: 768px;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: auto;
 
             .op-d1 {
-              width: 100%;
+              width: auto;
               height: auto;
               text-align: center;
               align-content: space-around;
@@ -695,7 +697,7 @@ $breakpoint-tablet: 768px;
               }
 
               select {
-                width: auto;
+                width: 100%;
                 height: auto;
                 font-size: 12px;
                 margin: 0 -20px;
@@ -718,6 +720,7 @@ $breakpoint-tablet: 768px;
                 margin-top: 20px;
                 color: white;
                 margin-left: -5px;
+                margin-right: 15px;
               }
 
               .bttn-1 {
@@ -878,6 +881,7 @@ $breakpoint-desktop: 1024px;
             display: flex;
             justify-content: start;
             list-style-type: none;
+            margin: 0;
 
             li {
               padding: 15px 5px;
@@ -1084,6 +1088,7 @@ $breakpoint-desktop: 1024px;
                 margin-top: 20px;
                 color: white;
                 margin-left: -5px;
+                margin-right: 15px;
               }
 
               .bttn-1 {

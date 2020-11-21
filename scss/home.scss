@@ -7,7 +7,7 @@ $breakpoint-mobile: 768px;
 
 @media (max-width: $breakpoint-mobile) {
   body {
-    background: #f1f3fa;
+    // background: #f1f3fa;
   }
 
   .container {
@@ -347,6 +347,7 @@ $breakpoint-mobile: 768px;
         display: flex;
         justify-content: start;
         list-style-type: none;
+        margin: 0;
 
         li {
           padding: 10px 8px;
@@ -873,6 +874,7 @@ $breakpoint-tablet: 768px;
             display: flex;
             justify-content: start;
             list-style-type: none;
+            margin: 0;
 
             li {
               padding: 15px 5px;
@@ -1394,6 +1396,7 @@ $breakpoint-desktop: 1024px;
             display: flex;
             justify-content: start;
             list-style-type: none;
+            margin: 0;
 
             li {
               padding: 15px 5px;
