@@ -5,10 +5,6 @@
   body a {
     color: #bdafaf;
   }
-  body a i {
-    color: white;
-    font-size: 30px;
-  }
   body a .hide {
     display: none;
   }
@@ -73,18 +69,15 @@
   body .img-secc .bttn-img-1 .bttn-img {
     height: 200px;
     width: 300px;
-    padding: 20px 20px;
   }
   body .img-secc .bttn-img-1 .bttn-img a img {
     width: 100%;
     height: auto;
   }
   body .img-secc .bttn-img-1 .be2 {
-    background: gray;
     height: 100%;
   }
   body .img-secc .bttn-img-1 .be3 {
-    background: pink;
     height: 100%;
   }
   body main {
@@ -113,84 +106,102 @@
   }
   body main .option-div .bttn {
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: -50px;
   }
   body main .option-div .bttn form .bttn-1 {
     background: brown;
-    padding: 0;
+    padding: 6px 6px;
+    border-radius: 5px;
+    color: ivory;
   }
   body main .option-div .bttn form .bttn-2 {
     background: #2c1753;
-    padding: 0;
+    padding: 6px 6px;
+    border-radius: 5px;
+    color: ivory;
   }
   body footer {
     background: black;
     width: 100%;
     height: auto;
   }
-  body footer .con4 {
-    width: 100%;
-    height: auto;
-  }
-  body footer .con4 .icon-div {
+  body footer .icon-div {
     width: 100%;
     background: #3a3535;
   }
-  body footer .con4 .icon-div .ul1 {
+  body footer .icon-div .ul1 {
     display: flex;
     justify-content: start;
     list-style-type: none;
   }
-  body footer .con4 .icon-div .ul1 li {
+  body footer .icon-div .ul1 li {
     padding: 15px 5px;
+  }
+  body footer .icon-div .ul1 li .awe {
+    color: #bdafaf;
+  }
+  body footer .con4 {
+    width: 100%;
+    height: auto;
   }
   body footer .con4 .row1 {
     display: flex;
-    padding-top: 20px;
     height: auto;
-    width: 100%;
+    width: auto;
     justify-content: center;
     align-items: center;
   }
   body footer .con4 .row1 .ffa1 {
     border-top: 1px solid #b4aaaa;
     border-bottom: 1px solid #b4aaaa;
+    width: auto;
   }
   body footer .con4 .row1 .ffa1 .ul1 {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     list-style-type: none;
+    width: auto;
   }
   body footer .con4 .row1 .ffa1 .ul1 li {
-    margin: 10px 10px;
-    font-size: 11px;
+    margin-right: 5px;
+    font-size: 10px;
     font-weight: bold;
+    width: inherit;
   }
   body footer .con4 .row1 .ffa1 .ul1 li a {
     color: white;
   }
   body footer .con4 .row1 .ffa2 {
-    width: 80px;
-    height: 80px;
+    width: auto;
+    height: auto;
     border: 1px solid #b4aaaa;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
   }
+  body footer .con4 .row1 .ffa2 .aa2 i {
+    color: white;
+    font-size: 30px;
+  }
   body footer .con4 .row1 .ffa3 {
     border-top: 1px solid #b4aaaa;
     border-bottom: 1px solid #b4aaaa;
+    width: auto;
   }
   body footer .con4 .row1 .ffa3 .ul1 {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     list-style-type: none;
+    width: auto;
+    margin-left: -34px;
   }
   body footer .con4 .row1 .ffa3 .ul1 li {
-    margin: 10px 10px;
-    font-size: 11px;
+    margin-right: 5px;
+    font-size: 10px;
     font-weight: bold;
+    width: inherit;
   }
   body footer .con4 .row1 .ffa3 .ul1 li a {
     color: white;
@@ -201,23 +212,25 @@
     align-items: center;
     height: auto;
     width: 100%;
-    padding-bottom: 20px;
   }
   body footer .con4 .bottom-div .za1 {
-    width: 400px;
+    width: auto;
     text-align: center;
+    padding-right: 3px;
   }
   body footer .con4 .bottom-div .za1 h2 {
     font-size: 13px;
     font-weight: bold;
     color: white;
   }
-  body footer .con4 .bottom-div .za1 form input {
+  body footer .con4 .bottom-div .za1 .ffw1 .ffw2 {
     background: transparent;
     border: 1px solid gray;
     color: white;
+    width: auto;
+    margin-top: 15px;
   }
-  body footer .con4 .bottom-div .za1 form label {
+  body footer .con4 .bottom-div .za1 .ffw1 .ffw4 {
     display: inline;
     background: gray;
     padding: 6px 10px;
@@ -225,24 +238,27 @@
     color: white;
   }
   body footer .con4 .bottom-div .za2 {
-    width: 400px;
+    width: auto;
     text-align: center;
+    padding-right: 4px;
   }
   body footer .con4 .bottom-div .za2 h2 {
     font-size: 13px;
     font-weight: bold;
     color: white;
   }
-  body footer .con4 .bottom-div .za2 p {
+  body footer .con4 .bottom-div .za2 .pp1 {
     font-size: 11px;
     margin: 0;
+    color: ivory;
   }
   body footer .con4 .bottom-div .za2 .color {
     color: #ec3333;
     cursor: pointer;
+    font-size: 12px;
   }
   body footer .con4 .bottom-div .za3 {
-    width: 400px;
+    width: auto;
     text-align: center;
   }
   body footer .con4 .bottom-div .za3 h2 {
@@ -250,11 +266,12 @@
     font-weight: bold;
     color: white;
   }
-  body footer .con4 .bottom-div .za3 p {
+  body footer .con4 .bottom-div .za3 .pp1 {
     font-size: 11px;
     margin: 0;
+    color: ivory;
   }
-  body footer .con4 .bottom-div .za3 p .color {
+  body footer .con4 .bottom-div .za3 .pp1 .color {
     color: #ec3333;
     cursor: pointer;
   }
@@ -339,7 +356,7 @@
     font-weight: bolder;
   }
   body .img-secc .bttn-img-1 {
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -349,18 +366,16 @@
   body .img-secc .bttn-img-1 .bttn-img {
     height: 200px;
     width: 300px;
-    padding: 20px 20px;
+    padding: 40px 20px;
   }
   body .img-secc .bttn-img-1 .bttn-img .hha1 img {
     width: 100%;
     height: auto;
   }
   body .img-secc .bttn-img-1 .be2 {
-    background: gray;
     height: 100%;
   }
   body .img-secc .bttn-img-1 .be3 {
-    background: #b4a5a5;
     height: 100%;
   }
   body footer {
@@ -520,8 +535,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    padding: 30px 30px;
+    width: auto;
+    padding: 30px 0;
   }
   body main .all .option-div .option-div1 {
     display: flex;
@@ -530,37 +545,45 @@
     width: 100%;
   }
   body main .all .option-div .option-div1 .op-d1 {
-    width: 100px;
+    width: 100%;
     height: auto;
+    text-align: center;
+    align-content: space-around;
   }
   body main .all .option-div .option-div1 .op-d1 .op-d2 {
     width: auto;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bolder;
   }
   body main .all .option-div .option-div1 .op-d1 select {
-    width: 100px;
+    width: auto;
     height: auto;
+    font-size: 12px;
+    margin: 0 -20px;
+    padding: 0;
   }
   body main .all .option-div .bttn {
     display: flex;
     font-size: 13px;
     width: auto;
     align-self: center;
+    margin-left: -30px;
   }
   body main .all .option-div .bttn form button {
     padding: 0;
-    height: 30px;
+    width: auto;
     margin-top: 20px;
     color: white;
+    margin-left: -5px;
   }
   body main .all .option-div .bttn form .bttn-1 {
     background: brown;
-    padding: 0;
+    padding: 9.8px 4px;
+    margin-left: -19px;
   }
   body main .all .option-div .bttn form .bttn-2 {
     background: #2c1753;
-    padding: 0;
+    padding: 0 10px;
   }
 }
 @media (min-width: 1024px) {
@@ -648,11 +671,9 @@
     height: auto;
   }
   body .img-secc .bttn-img-1 .be2 {
-    background: gray;
     height: 100%;
   }
   body .img-secc .bttn-img-1 .be3 {
-    background: #b4a5a5;
     height: 100%;
   }
   body footer {
@@ -812,18 +833,19 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    padding: 30px 30px;
+    width: auto;
   }
   body main .all .option-div .option-div1 {
     display: flex;
     justify-content: center;
-    width: 100%;
     align-items: center;
+    width: 100%;
   }
   body main .all .option-div .option-div1 .op-d1 {
-    width: 100px;
+    width: 100%;
     height: auto;
+    text-align: center;
+    align-content: space-around;
   }
   body main .all .option-div .option-div1 .op-d1 .op-d2 {
     width: auto;
@@ -831,27 +853,33 @@
     font-weight: bolder;
   }
   body main .all .option-div .option-div1 .op-d1 select {
-    width: 100px;
+    width: auto;
     height: auto;
+    font-size: 12px;
+    margin: 0 -20px;
+    padding: 0;
   }
   body main .all .option-div .bttn {
     display: flex;
     font-size: 13px;
     width: auto;
     align-self: center;
+    margin-left: -30px;
   }
   body main .all .option-div .bttn form button {
     padding: 0;
-    height: 30px;
+    width: auto;
     margin-top: 20px;
     color: white;
+    margin-left: -5px;
   }
   body main .all .option-div .bttn form .bttn-1 {
     background: brown;
-    padding: 0;
+    padding: 9.8px 4px;
+    margin-left: -19px;
   }
   body main .all .option-div .bttn form .bttn-2 {
     background: #2c1753;
-    padding: 0;
+    padding: 0 10px;
   }
 }
